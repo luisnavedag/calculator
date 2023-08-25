@@ -1,5 +1,5 @@
 .boton-clear{
-    height: 80px;
+    height: 60px;
     font-size: 1.6em;
     display: flex;
     flex: 1;
@@ -18,3 +18,10 @@
 .boton-clear:hover{
   background-color: #ebb000;
 }
+
+@media (min-width: 371px) and (max-width: 767px){
+  .boton-clear{
+    height: 50px;
+
+  }
+  }

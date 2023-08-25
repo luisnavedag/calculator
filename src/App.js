@@ -26,9 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='contenedor-logo'>
-        <img className='calculator-logo' src={ calculatorLogo } alt='calculator'/>
-      </div>
+      
       <div className='contenedor-calculadora'>
         <Pantalla input={input}/>
         <div className='fila'>
